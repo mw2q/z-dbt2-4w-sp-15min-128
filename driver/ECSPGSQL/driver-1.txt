@@ -1,0 +1,89 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 4
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 4
+
+10 terminals per warehouse
+
+900 second steady state duration
+
+driver is starting to ramp up at time 1431289239
+driver will ramp up in  3 seconds
+will stop test at time 1431290142
+seed for 64516:fd7ae910 : 2822026673
+seed for 64516:fd510910 : 2820467898
+seed for 64516:fd4f0910 : 2818859994
+seed for 64516:fd4d0910 : 2819095244
+seed for 64516:fd4b0910 : 2818798046
+seed for 64516:fd490910 : 2819524087
+seed for 64516:fd470910 : 2818710773
+seed for 64516:fd450910 : 2818675774
+seed for 64516:fd430910 : 2818649273
+seed for 64516:fd410910 : 2818614825
+seed for 64516:fd3f0910 : 2826009731
+seed for 64516:fd3d0910 : 2825949940
+seed for 64516:fd3b0910 : 2825919941
+seed for 64516:fd390910 : 2826146928
+seed for 64516:fd370910 : 2826903564
+seed for 64516:fd350910 : 2826091167
+seed for 64516:fd330910 : 2826319518
+seed for 64516:fd310910 : 2826068188
+seed for 64516:fd2f0910 : 2825765914
+seed for 64516:fd2d0910 : 2825736552
+seed for 64516:fd2b0910 : 2825201150
+seed for 64516:fd290910 : 2825174067
+seed for 64516:fd270910 : 2825701816
+seed for 64516:fd250910 : 2825893050
+seed for 64516:fd230910 : 2825640408
+seed for 64516:fd210910 : 2825345107
+seed for 64516:fd1f0910 : 2824524419
+seed for 64516:fd1d0910 : 2824758835
+seed for 64516:fd1b0910 : 2824469254
+seed for 64516:fd190910 : 2824407087
+seed for 64516:fd170910 : 2824418886
+seed for 64516:fd150910 : 2824432317
+seed for 64516:fd130910 : 2824397690
+seed for 64516:fd110910 : 2824371274
+seed for 64516:fd0f0910 : 2823288513
+seed for 64516:fd0d0910 : 2823491034
+seed for 64516:fd0b0910 : 2823722390
+seed for 64516:fd090910 : 2823432582
+seed for 64516:fd070910 : 2823139189
+seed for 64516:fd050910 : 2823453577
+terminals started...
+driver is exiting normally
